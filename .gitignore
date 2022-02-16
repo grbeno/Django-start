@@ -6,3 +6,6 @@ db.sqlite3
 # pipenv
 Pipfile
 Pipfile.lock
+
+# my-files
+after-clone-django-start.txt
