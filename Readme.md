@@ -1,6 +1,11 @@
 ## Django-start
 ##### * This is a Django starter project, you can clone or download zip and start your own project.
-
+#### Ready for deploying
+- static assets
+- procfile 
+- whitenoise
+- environs
+- postgres
 #### 1. If you are cloning this repo change the github repo url:
 ```$ git remote set-url origin <new_repo_url_here_in_https_or_ssh>```
 ##### Then you can check
