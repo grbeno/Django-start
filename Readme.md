@@ -2,7 +2,7 @@
 ##### * This is a Django starter project, you can clone or download zip and start your own project.
 #### Ready for deploying
 - static assets
-- procfile 
+- gunicorn 
 - whitenoise
 - environs
 - postgres
