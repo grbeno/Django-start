@@ -6,7 +6,7 @@
 - whitenoise
 - environs
 - postgres
-#### 1. If you are cloning this repo change the github repo-url
+#### 1. If you are cloning this repo change the github repo-url to the url of your new github repo
 ```$ git remote set-url origin <new_repo_url_here_in_https_or_ssh>```
 ##### Then you can check
 ```$ git remote -v```
@@ -30,6 +30,6 @@
 ```$ python manage.py runserver```
 ##### * If you can see the homepage after running localhost on your browser then you can use your new django app and you can deploying that later (to heroku e.g.)
 ##### * You can make migrations and migrate now.
-##### <span style="color:#ffc107">WARNING:</span> If you would like to add custom user model to your django app you have to do it even before migrate command!
+##### WARNING: If you would like to add custom user model to your django app you have to do it even before migrate command!
 
 
