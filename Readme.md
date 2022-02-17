@@ -6,7 +6,7 @@
 - whitenoise
 - environs
 - postgres
-#### 1. If you are cloning this repo change the github repo url:
+#### 1. If you are cloning this repo change the github repo-url:
 ```$ git remote set-url origin <new_repo_url_here_in_https_or_ssh>```
 ##### Then you can check
 ```$ git remote -v```
@@ -15,7 +15,13 @@
 ```$ python -c 'import secrets;print(secrets.token_urlsafe())'```
 #### 4. Create env file with your own data
 ```export DEBUG=True```
+
 ```export SECRET_KEY=<your_generated_secret_key_here>```
+
+```export DB_NAME=<your_created_db_name_here>```
+
+```export DB_PASSWORD=<your_db_password_here>```
+
 #### 5. Install the python packages
 ```$ pipenv install -r requirements.txt```
 #### Then run virtual environment
